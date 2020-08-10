@@ -31,7 +31,7 @@ end
 #full? checks if the board is full
 def full?(board)
   board.all? do |position|
-  position = "X" || position = "O"
+  position == "X" || position == "O"
   end
 end
 
