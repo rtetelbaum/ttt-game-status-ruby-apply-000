@@ -55,7 +55,10 @@ def over?(board)
   end
 end
 
-#winner 
+#winner return the token, "X" or "O" that has won the game given a winning board
+def winner(board)
+  
+end
 
 
 
