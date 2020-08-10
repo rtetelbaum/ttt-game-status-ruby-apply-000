@@ -47,7 +47,7 @@ def draw?(board)
   end
 end
 
-
+#over? 
 
 
 
