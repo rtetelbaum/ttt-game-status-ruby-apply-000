@@ -50,8 +50,8 @@ end
 #over? returns true if the board has been won, is a draw, or is full
 def over?(board)
   if
-    if won?(board) != false || draw?(board) == true || full?(board) == true
-      true
+    won?(board) != false || draw?(board) == true || full?(board) == true
+    
   end
 end
 
